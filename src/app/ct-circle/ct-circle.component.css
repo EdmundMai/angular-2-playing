@@ -1,0 +1,15 @@
+.metric {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.circle {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  width: 150px;
+}

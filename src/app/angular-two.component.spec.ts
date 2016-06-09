@@ -19,4 +19,9 @@ describe('App: AngularTwo', () => {
       inject([AngularTwoAppComponent], (app: AngularTwoAppComponent) => {
     expect(app.title).toEqual('angular-two works!');
   }));
+
+  it('should set edmund',
+      inject([AngularTwoAppComponent], (app: AngularTwoAppComponent) => {
+    expect(app.edmund).toEqual('cool');
+  }));
 });

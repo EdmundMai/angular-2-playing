@@ -9,6 +9,6 @@ describe('angular-two App', function() {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('angular-two works!');
+    expect(page.getParagraphText()).toEqual('Angular 2 app');
   });
 });

@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Angular 2 app</h1>
+<ct-button>carbon works</ct-button>
+<div class="metric-container">
+  <app-ct-circle [metric]="engagementMetric" [color]="'red'"></app-ct-circle>
+  <app-ct-circle [metric]="potentialImpressionsMetric" [color]="'purple'"></app-ct-circle>
+  <app-ct-circle [metric]="rivMetric" [color]="'green'"></app-ct-circle>
+</div>
